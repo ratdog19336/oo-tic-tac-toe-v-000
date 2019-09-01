@@ -103,7 +103,7 @@ class TicTacToe
     binding.pry
     until !over
       turn
-    else
+    end
 
 
   end
