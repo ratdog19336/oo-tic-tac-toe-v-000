@@ -102,6 +102,7 @@ class TicTacToe
   end
 
   def play
+    binding.pry
     turn
     binding.pry
 
