@@ -36,9 +36,7 @@ class TicTacToe
   end
 
   def valid_move?(position)
-    # binding.pry
     !position_taken?(position.to_i-1) && position != "invalid" && position.to_i > -1
-
   end
 
   def turn
