@@ -101,9 +101,10 @@ class TicTacToe
     # binding.pry
     turn
     binding.pry
-    if !over?
+    until !over?
       move
     else
+
 
   end
 
