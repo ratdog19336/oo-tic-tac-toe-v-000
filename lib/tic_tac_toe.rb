@@ -104,7 +104,10 @@ class TicTacToe
     until !over
       turn
     end
-
+    if won?
+      puts "Congratulations"
+    else
+      puts "Cats game!"
 
   end
 
