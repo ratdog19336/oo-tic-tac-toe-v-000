@@ -100,7 +100,7 @@ class TicTacToe
   def play
     # binding.pry
     turn
-    binding.pry
+    # binding.pry
     until !over
       turn
     end
