@@ -20,8 +20,6 @@ class TicTacToe
       puts "Please enter 1-9:"
       input = gets.strip
       if valid_move?(input)
-        #turn_count
-        #current_player = current_player
         move(input, current_player)
         display_board
       else
