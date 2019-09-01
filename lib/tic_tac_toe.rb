@@ -103,6 +103,7 @@ class TicTacToe
     binding.pry
     if !over?
       move
+    else
 
   end
 
